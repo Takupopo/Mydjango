@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wawawa</title>
+    <link rel="stylesheet" href = "{% static 'main.css' %}">
+  </head>
+  <body>
+    {% include "_navbar.html" %}
+    
+    {% block main  %}
+    No content
+    {% endblock  %}
+
+    {% include "_footer.html" %}
+  </body>
+</html>    

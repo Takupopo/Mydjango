@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 release: python manage.py migrate
 web: gunicorn test1.wsgi
+=======
+web: gunicorn test1.wsgi
+>>>>>>> 8fbd044c5024b9db00ac1d1e35a9b921a5ccab68

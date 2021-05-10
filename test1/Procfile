@@ -1,1 +1,2 @@
-web: gunicorn django_website.wsgi
+release: python manage.py migrate
+web: gunicorn test1.wsgi
